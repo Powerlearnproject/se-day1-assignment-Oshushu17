@@ -5,7 +5,7 @@ Software Engineering Day1 Assignment
 #Part 1: Introduction to Software Engineering
 
 **Question:** Explain what software engineering is and discuss its importance in the technology industry.
-                             **ANSWER**         
+**ANSWER**         
 Software Engineering is a systematic, disciplined, quantifiable study and approach to the design, development, operation, and maintenance of a software system. The sole aim of software engineering is to develop software applications for improving quality, budget, and time efficiency.
 The core tenets of software engineering includes: efficiency, reliability, maintainability and reusability. 
 		            **PRINCIPLES OF SOFTWARE ENGINEERING**
@@ -49,7 +49,7 @@ This ensures that software can handle an increase in the number of user data in 
 By applying systematic and disciplined approaches, software engineering reduces the cost of software development. It helps prevent costly mistakes, rework, and inefficiencies.
 
 **Question:** Identify and describe at least three key milestones in the evolution of software engineering.
-                           **ANSWER**
+**ANSWER**
 1. STRUCTURED ENGINEERING:
 In the past, programming languages didn't have while loops, if statements, etc., and programmers used goto to make up the logic of their programs. This leads to an unmaintainable messy spaghetti code.
 In 1960-1970s, Edsger Dijkstra, promoted the use of structured programming which introduced concepts like modularization, control structures (e.g., loops and conditionals), and subroutines/functions.
@@ -60,7 +60,7 @@ DevOps is a cultural and technical movement that aims to bridge the gap between 
 
 
 **Question:** List and briefly explain the phases of the Software Development Life Cycle.
-                           **ANSWER**
+ **ANSWER**
 1. Requirement gathering and Planning    2. Analysis      3. Design      4. Development    5. Testing   6. Implementation
 (a). Requirement gathering and Planning: This phase deals with collecting data pertaining the clients requirements, project scope and setting timelines and pitching budgets
 (b). Analysis: Identifying and documenting software requirements, including functional and non-functional aspects.
@@ -70,7 +70,7 @@ DevOps is a cultural and technical movement that aims to bridge the gap between 
 (f). Implementation: Deploying the software to production, configuring, and setting up the system.
 
 **Question:** Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
-                          **ANSWER**
+ **ANSWER**
 AGILE METHODOLOGIES 
 1. It is a continuous iteration life cycle model to develop and test a software product.
 2. It is flexible to make changes at any point of time (or at any stage of development process) .
@@ -86,7 +86,7 @@ WATERFALL METHODOLOGIES
 5. Has long delivery time and the entire project must be completed before delivery.
 
 **Question:** Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
-                           **ANSWER**
+**ANSWER**
 Software Developers are responsible for designing, coding, and implementing software applications or systems. They write clean, efficient, and maintainable code based on project requirements and design specifications. They also work closely with team members, identifying and fixing bugs in the code to ensure the software runs smoothly.
 
 Quality Assurance Engineers identify defects and verify that the software functions as intended, ensure that software meets quality standards before getting to the end-users. To achieve softwares with quality standards, they create test plans, cases, and scripts based on the project’s requirements and specifications. Documenting defects in a bug-tracking system, prioritizing issues, and working with developers to resolve them and also making sure that new code changes don’t have a negative effect on existing functionality.
@@ -94,7 +94,7 @@ Quality Assurance Engineers identify defects and verify that the software functi
 Project Engineer.: They oversee the planning, execution, and delivery of software projects. They coordinate the work of the team, manage resources, and ensure the project is completed on time, within scope, and on budget. Assigning tasks to team members and ensuring clear communication among all stakeholders. Facilitating collaboration between developers, QA engineers, designers, and other team members.
 
 **Question:** Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
-                           **ANSWER**
+**ANSWER**
 **Importance of Integrated Development Environments (IDEs)**
 1. Code Efficiency and Productivity: IDEs provide a rich set of features that streamline the coding process, including syntax highlighting, code completion, and real-time error detection. These features help developers write code faster and with fewer errors.
 2. Debugging and Testing: Most IDEs come with integrated debugging tools that allow developers to set breakpoints, inspect variables, and step through code. This makes it easier to identify and fix bugs. Some IDEs also support running unit tests directly within the environment.
@@ -113,7 +113,7 @@ Examples of VCS are Git, Subversion (SVN), and Mercurial
 
 
 **Question:** What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
-                           **ANSWER**
+**ANSWER**
 CHALLENGES FACED BY SOFTWARE ENGINERS
 1. Staying updated can be overwhelming as new programming languages, frameworks and tools continues to emerge.
 2. Debugging complex issues can be time-consuming and frustrating, especially when the root cause is difficult to identify or reproduce
@@ -129,7 +129,7 @@ STRATEGIC SOLUTIONS
 
 
 **Question:** Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
-                            **ANSWER**
+ **ANSWER**
 Unit Testing:  Involves testing individual components or "units" of the software in isolation, typically at the function or method level. The purpose is to ensure that each unit of the code performs as expected. It’s critical for early detection of issues within individual components, reducing the cost of fixing bugs later. Tools used for unit testing includes PyTest(Python), Junit (Java)
 
 Integration Testing: This involves testing how various components  or  modules interact together, preventing integration-related bugs. It ensures that the system's components, which may function correctly individually, also work correctly when combined. Types of integration testing includes top-down, bottom-up and big bang.
@@ -142,7 +142,7 @@ Acceptance Testing: is the final phase of testing before the software is release
                            
 
 **Question:** Define prompt engineering and discuss its importance in interacting with AI models.
-                            **ANSWER**
+**ANSWER**
 Prompt engineering is the process of designing and refining input prompts to effectively interact with AI models, like GPT.  This involves crafting prompts that are clear, specific, and aligned with the desired output, thereby optimizing the AI's performance.
 The goal of prompt engineering is to elicit accurate, relevant, and contextually appropriate responses from the AI.
             
@@ -153,7 +153,7 @@ The goal of prompt engineering is to elicit accurate, relevant, and contextually
 4. Diverse Perspectives: Creative prompt engineering can push the AI to explore different perspectives or generate novel ideas, making it a valuable tool for brainstorming and problem-solving.
 
 **Question:** Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
-                            **ANSWER**
+**ANSWER**
 vague prompt : write a React component
 improved prompt : create a Student class component in React with id, firstName, lastName, and age as its state:
-The latter is more effective as it gives clear and specfic intrsuction to the AI on the type of React component to be created and propertie the state should contain
+The latter is more effective as it gives clear and specfic intrsuction to the AI on the type of React component to be created and properties the state should contain
